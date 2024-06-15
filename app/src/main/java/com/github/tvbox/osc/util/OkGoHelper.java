@@ -79,6 +79,10 @@ public class OkGoHelper {
             }
             case 4: {
                 return "https://dns.adguard.com/dns-query";
+                 "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+                     ]
             }
             case 5: {
                 return "https://dns.quad9.net/dns-query";
