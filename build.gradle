@@ -8,6 +8,9 @@ buildscript {
         //maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
        maven { url 'http://home.jundie.top:81/xwalk/maven2' }
 //        maven { url 'http://9xi4o.tk/maven2' }
+          maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
+        maven { url 'https://maven.aliyun.com/repository/releases' }
+        maven{url "https://4thline.org/m2"}
         jcenter()
     }
     dependencies {
@@ -27,6 +30,9 @@ allprojects {
         //maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
 //        maven { url 'http://9xi4o.tk/maven2' }
         maven { url 'http://home.jundie.top:81/xwalk/maven2' }
+          maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
+        maven { url 'https://maven.aliyun.com/repository/releases' }
+        maven{url "https://4thline.org/m2"}
     jcenter()    
     }
 }
